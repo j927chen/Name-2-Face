@@ -9,9 +9,15 @@ Make sure the Name-2-Face.jar file is in the same directory as a folder titled "
 Note that the SQLite database file is embeddded within the jar file and the school.db file in the repository is for demonstration purposes.
 
 Notable features of Name-2-Face include:
+
 - Create students, upload a portrait picture, and enter personal information.
 - Create classes and enroll students in them.
 - Search through the classes by student name (both first, last, or both), id, or face to find that student you don't remember.
 - Filter groups of students by classes (and get them in alphabetical order).
-- Update student information and photos.
+- Update and delete student information and photos.
+- See enrollment statistics of the classes.
+
+# Images
+
+
 
