@@ -23,6 +23,10 @@ Notable features of Name-2-Face include:
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/opening.png)
 
+&nbsp;
+
+Enjoy the simple interface!
+
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search.png)
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search_with_number.png)
@@ -31,12 +35,11 @@ Notable features of Name-2-Face include:
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/upload.png)
 
+&nbsp;
 
+Complete with strict data validation, error message pop-ups, and error handling so your experience is clean!
 
-
-
-
-Complete with strict data validation, error checking, and error handling so your experience is clean!
+&nbsp;
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/statistics.png)
 
