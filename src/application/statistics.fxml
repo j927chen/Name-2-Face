@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?> 
+<?import javafx.scene.chart.CategoryAxis?> 
+<?import javafx.scene.chart.NumberAxis?> 
+<?import javafx.scene.chart.PieChart?> 
+<?import javafx.scene.control.Button?> 
+<?import javafx.scene.control.Label?> 
+<?import javafx.scene.control.RadioButton?> 
+<?import javafx.scene.control.ScrollPane?> 
+<?import javafx.scene.control.Slider?> 
+<?import javafx.scene.layout.AnchorPane?> 
+<?import javafx.scene.layout.FlowPane?> 
+<?import javafx.scene.layout.Pane?> 
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="750.0" xmlns="http://
+javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="application.StatisticsController">
+<children>
+<FlowPane alignment="TOP_CENTER" columnHalignment="CENTER"
+orientation="VERTICAL" prefHeight="450.0" prefWidth="750.0"
+AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+<children>
+<ScrollPane hbarPolicy="NEVER" prefHeight="450.0"
+prefWidth="750.0" vbarPolicy="ALWAYS">
+<content>
+<AnchorPane minHeight="0.0" minWidth="0.0"
+prefHeight="900.0" prefWidth="750.0">
+<children>
+<Pane prefHeight="900.0"
+prefWidth="750.0" AnchorPane.bottomAnchor="0.0"
+AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+AnchorPane.topAnchor="0.0">
+<children>
+<Button layoutX="14.0"
+layoutY="14.0" mnemonicParsing="false" onAction="#back"
+text="&lt; - - " />
+<Label layoutX="310.0"
+layoutY="14.0" text="Statistics">
+<font>
+<Font name="Hiragino Sans
+W6" size="26.0" />
+</font>
+</Label>
+<PieChart fx:id="pieChart"
+
+layoutX="165.0" layoutY="59.0" prefHeight="345.0"
+prefWidth="420.0" />
+<BarChart fx:id="barChart"
+layoutX="163.0" layoutY="454.0" prefHeight="357.0"
+prefWidth="426.0">
+<xAxis>
+<CategoryAxis side="BOTTOM" />
+</xAxis>
+<yAxis>
+<NumberAxis side="LEFT" />
+</yAxis>
+</BarChart>
+<Label layoutX="95.0"
+layoutY="610.0" rotate="270.0" text="Number of Students" />
+<Slider fx:id="slider1"
+layoutX="132.0" layoutY="162.0" onMouseDragged="#rotatePieChart"
+orientation="VERTICAL" />
+<Label layoutX="98.0"
+layoutY="224.0" rotate="270.0" text="Rotate" />
+<RadioButton fx:id="radioButton"
+layoutX="67.0" layoutY="135.0" mnemonicParsing="false"
+onAction="#setClockwise" text="Clockwise" />
+<Slider fx:id="slider2"
+layoutX="100.0" layoutY="538.0"
+onMouseDragged="#setNumberOfDisplayedClasses"
+orientation="VERTICAL" />
+<Label layoutX="20.0"
+layoutY="600.0" rotate="270.0" text="Number of Classes" />
+</children>
+</Pane>
+</children>
+</AnchorPane>
+</content>
+</ScrollPane>
+</children>
+</FlowPane>
+</children>
+</AnchorPane>

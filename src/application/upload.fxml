@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?> 
+<?import javafx.scene.control.Label?> 
+<?import javafx.scene.control.Tab?> 
+<?import javafx.scene.control.TabPane?> 
+<?import javafx.scene.control.TextField?> 
+<?import javafx.scene.layout.AnchorPane?> 
+<?import javafx.scene.layout.Pane?> 
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"fx:controller="application.UploadController">
+<children>
+<Pane layoutX="-129.0" layoutY="-121.0" prefHeight="450.0"
+prefWidth="750.0" AnchorPane.bottomAnchor="0.0"
+AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+AnchorPane.topAnchor="0.0">
+<children>
+<Label layoutX="72.0" layoutY="6.0" text="Upload">
+<font>
+<Font size="30.0" />
+</font>
+</Label>
+<TabPane layoutX="-2.0" layoutY="43.0"
+prefHeight="413.0" prefWidth="750.0"
+tabClosingPolicy="UNAVAILABLE">
+<tabs>
+<Tab text="Create New Student">
+<content>
+<AnchorPane minHeight="0.0" minWidth="0.0"
+prefHeight="380.0" prefWidth="750.0">
+<children>
+<Label layoutX="9.0" layoutY="6.0"
+text="Student ID" />
+<TextField fx:id="id"
+layoutX="9.0" layoutY="33.0" promptText="ID" />
+<Label layoutX="8.0"
+layoutY="80.0" text="Student First Name" />
+<TextField fx:id="firstName"
+layoutX="9.0" layoutY="116.0" promptText="First Name" />
+<Label layoutX="220.0"
+layoutY="6.0" text="Upload Photo" />
+<Button layoutX="231.0"
+layoutY="33.0" mnemonicParsing="false" onAction="#upload"
+text="Upload" />
+
+<Button layoutX="205.0"
+layoutY="302.0" mnemonicParsing="false" onAction="#save"
+prefHeight="49.0" prefWidth="130.0" text="Save" />
+<Label fx:id="fileName"
+layoutX="225.0" layoutY="60.0" prefHeight="17.0"
+prefWidth="162.0" />
+<Label layoutX="9.0"
+layoutY="157.0" text="Student Last Name" />
+<TextField fx:id="lastName"
+layoutX="9.0" layoutY="189.0" promptText="Last Name" />
+<Label layoutX="9.0"
+layoutY="232.0" text="Email" />
+<TextField fx:id="email"
+layoutX="9.0" layoutY="261.0" promptText="Email" />
+<Label layoutX="9.0"
+layoutY="300.0" text="Description" />
+<TextField fx:id="description"
+layoutX="9.0" layoutY="326.0" promptText="Description" />
+</children>
+</AnchorPane>
+</content>
+</Tab>
+<Tab text="Create New Class">
+<content>
+<AnchorPane minHeight="0.0" minWidth="0.0"
+prefHeight="180.0" prefWidth="200.0">
+<children>
+<Label layoutX="8.0" layoutY="3.0"
+text="Class ID" />
+<TextField fx:id="code"
+layoutX="8.0" layoutY="31.0" promptText="ID" />
+<Button layoutX="31.0"
+layoutY="75.0" mnemonicParsing="false" onAction="#newClass"
+prefHeight="68.0" prefWidth="121.0" text="Save" />
+</children></AnchorPane>
+</content>
+</Tab>
+</tabs>
+</TabPane>
+<Button layoutX="14.0" layoutY="11.0"
+mnemonicParsing="false" onAction="#back" text="&lt; - - " />
+</children>
+</Pane>
+</children>
+</AnchorPane>
+

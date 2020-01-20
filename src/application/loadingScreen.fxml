@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?> 
+<?import javafx.scene.control.Label?> 
+<?import javafx.scene.image.ImageView?> 
+<?import javafx.scene.layout.AnchorPane?> 
+<?import javafx.scene.layout.FlowPane?> 
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseClicked="#toOpening" xmlns="http://
+javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="application.LoadingScreenController">
+<children>
+<FlowPane alignment="TOP_CENTER" layoutX="253.0"
+layoutY="14.0" prefHeight="52.0" prefWidth="773.0"
+AnchorPane.bottomAnchor="541.0" AnchorPane.leftAnchor="0.0"
+AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+<children>
+<Label alignment="CENTER" text="Welcome">
+<font>
+<Font name="Avenir Next Bold" size="36.0" />
+</font>
+</Label>
+</children>
+</FlowPane>
+<FlowPane alignment="BOTTOM_CENTER" layoutX="267.0"
+layoutY="541.0" prefHeight="52.0" prefWidth="773.0"
+AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="541.0">
+<children>
+<Label alignment="CENTER" text="Press to Continue">
+<font>
+<Font name="System Font" size="16.0" />
+</font>
+</Label>
+</children>
+<padding>
+<Insets bottom="20.0" />
+</padding>
+</FlowPane>
+<FlowPane alignment="CENTER" layoutX="-2.0" layoutY="82.0"
+prefHeight="96.0" prefWidth="773.0"
+AnchorPane.bottomAnchor="413.0" AnchorPane.leftAnchor="0.0"
+AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="82.0">
+<children>
+<ImageView fx:id="imageView2" fitHeight="96.0"
+fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+
+</children>
+</FlowPane>
+<FlowPane alignment="CENTER" columnHalignment="CENTER"
+layoutY="246.0" prefHeight="179.0" prefWidth="773.0"
+AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="0.0"
+AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="246.0">
+<children>
+<ImageView fx:id="imageView1" fitHeight="226.0"
+fitWidth="380.0" pickOnBounds="true" preserveRatio="true">
+<FlowPane.margin>
+<Insets />
+</FlowPane.margin></ImageView>
+</children>
+</FlowPane>
+</children>
+</AnchorPane>
