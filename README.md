@@ -19,5 +19,6 @@ Notable features of Name-2-Face include:
 
 # Images
 
+![Loading screen](/Readme Images/opening.png)
 
 
