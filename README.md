@@ -31,6 +31,10 @@ Enjoy the simple interface!
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search_with_number.png)
 
+&nbsp;
+
+Search for students with just their id!
+
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/student_profile.png)
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/upload.png)
