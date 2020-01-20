@@ -19,6 +19,19 @@ Notable features of Name-2-Face include:
 
 # Images
 
-![Loading screen](/Readme Images/opening.png)
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/loading screen.png)
 
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/opening.png)
+
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search.png)
+
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search with number.png)
+
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/student profile.png)
+
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/upload.png)
+
+Complete with strict data validation, error checking, and error handling so your experience is clean
+
+![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/statistics.png)
 
