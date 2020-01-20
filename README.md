@@ -45,7 +45,7 @@ Search for students with just their identification number!
 
 &nbsp;
 
-Complete with strict data validation, error message pop-ups, and error handling so your experience is clean!
+Complete with strict data validation, confirmation checking, and error message pop-ups so your experience is clean!
 
 &nbsp;
 
