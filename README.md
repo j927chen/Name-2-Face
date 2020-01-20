@@ -27,13 +27,17 @@ Notable features of Name-2-Face include:
 
 Enjoy the simple interface!
 
+&nbsp;
+
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search.png)
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/search_with_number.png)
 
 &nbsp;
 
-Search for students with just their id!
+Search for students with just their identification number!
+
+&nbsp;
 
 ![Loading screen](https://github.com/j927chen/Name-2-Face/blob/master/Readme%20Images/student_profile.png)
 
